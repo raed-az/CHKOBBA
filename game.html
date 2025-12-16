@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chkobba Game</title>
+    <link rel="stylesheet" href="game-style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body onload="startGame()">
+    <header>
+        <div class="score-top">
+            <div id="players">
+            <div class="player you">YOU: <span id="s0">0</span></div>
+            <div class="player bot">BOT1: <span id="s1">0</span></div>
+            <div class="player bot">BOT2: <span id="s2">0</span></div>
+            <div class="player bot">BOT3: <span id="s3">0</span></div>
+        </div>
+        </div>
+        
+        <div class="title-top">
+            <img src="img/logo-chkobba.png" alt="">
+        </div>
+    </header>
+
+    <section>
+        <div class="pos"><img src="" alt="" id="pos1"></div>
+        <div class="pos"><img src="" alt="" id="pos2"></div>
+        <div class="pos"><img src="" alt="" id="pos3"></div>
+        <div class="pos"><img src="" alt="" id="pos4"></div>
+        <div class="pos"><img src="" alt="" id="pos5"></div>
+        <div class="pos"><img src="" alt="" id="pos6"></div>
+        <div class="pos"><img src="" alt="" id="pos7"></div>
+        <div class="pos"><img src="" alt="" id="pos8"></div>
+        <div class="pos"><img src="" alt="" id="pos9"></div>
+        <div class="pos"><img src="" alt="" id="pos0"></div>
+    </section>
+
+    <footer>
+        <div class="cart-place"><img src="" alt="" id="Ppos1"></div>
+        <div class="cart-place"><img src="" alt="" id="Ppos2"></div>
+        <div class="cart-place"><img src="" alt="" id="Ppos3"></div>
+        <!-- Buttons for player actions -->
+        <button id="confirm-play" class="action-btn">اكل</button>
+        <button id="drop-card" class="action-btn">ارمي</button>
+    </footer>
+
+    <div id="log-panel"></div>
+</body>
+
+</html>
